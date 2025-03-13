@@ -1,51 +1,36 @@
-# 🪙 Unity Bitcoin Clicker Game
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-A **Bitcoin Clicker Game** where players earn virtual Bitcoin tokens by clicking a large Bitcoin coin! Complete missions, rank up, and explore multiple mini-games for rewards.
+## Getting Started
 
----
+First, run the development server:
 
-## 🔥 Features
-✅ **Login System:** Users must enter a username to start.  
-✅ **Click-to-Earn Tokens:** Click on the Bitcoin coin to earn tokens.  
-✅ **Animated Effects:** Coin animation & particle effects for clicks.  
-✅ **Mission System:** Complete missions like "Click 10 times" to earn bonuses.  
-✅ **Ranks:** Progress through ranks – Bronze → Silver → Gold → Platinum → Diamond → Heroic → Master → Elite Master.  
-✅ **Mini-Games Section:** Play different games to earn more tokens.  
-✅ **Exchange Logos Included:** Coinbase, Kraken, Binance, KuCoin, Bitstamp, Bitfinex, OKX, Bitget, BingX, BitMart, PrimeXBT, Bithumb, Cex.io.  
-✅ **Invite & Referral System:** Get bonuses for inviting friends!  
-✅ **Social Media Tasks:** Earn extra tokens by joining Telegram groups, following Instagram, YouTube, and TikTok.  
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
----
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 🎮 How to Play
-1. **Login with a Username** (required to start).  
-2. **Click on the Big Bitcoin Coin** to earn tokens.  
-3. **Complete Missions** like clicking 10 times to get rewards.  
-4. **Play Mini-Games** in the "Games" section for more earnings.  
-5. **Invite Friends** & complete social media tasks to boost earnings.  
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
----
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## 🛠️ Installation & Run
-### **Option 1: Play in Unity**
-1. Download & extract the project.  
-2. Open Unity **(Version 2021.3 or newer recommended).**  
-3. Click **File → Open Project → Select the Extracted Folder.**  
-4. Press **"Play"** to start the game!  
+## Learn More
 
-### **Option 2: Play as Standalone Game**
-1. In Unity, go to **File → Build Settings**.  
-2. Select **Windows/Mac/Linux Build → Build & Run.**  
+To learn more about Next.js, take a look at the following resources:
 
----
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## 🚀 GitHub Upload Guide
-1. **Create a new GitHub Repository**.  
-2. **Upload all extracted files** or use Git commands:
-   ```bash
-   git init
-   git remote add origin https://github.com/your-username/Unity-Bitcoin-Clicker-Game.git
-   git add .
-   git commit -m "Initial commit"
-   git branch -M main
-   git push -u origin main
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
